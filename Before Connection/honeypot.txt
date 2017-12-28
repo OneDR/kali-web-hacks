@@ -1,0 +1,28 @@
+//Fake access point without password so that people will automatically connect. Since it is open the traffic wil not be encrypted.
+
+//Requirements
+- Two network cards
+--One card that is connected to another network to actually connect to the network
+--The other one will host the wifi network
+
+//Mana-toolkit wil automaticly create a new AP and start SSLSTRIP/firelamp and attempts to bypss HSTS which is used by Gmail and Facebook.
+
+start-noupstream: start and AP (access point) with NO internet connection
+
+start-nat-simple: starts a regular AP using internet connection int he upstream interface
+
+start-nat-full: starts AP with internet connection, also starts sslstrip,sslsplit,firelamp, and tries to bypass HSTS
+
+// To install mana-toolkit
+
+apt-get install mana-toolkit
+
+//Modify the host manatookkit file just incase the wireless card you will broadcast with is not WLAN0
+/etc/mana-toolkit/hostapd-mana.conf
+
+//Modify the launch file
+/usr/share/mana-toolkit/run-mana/start-nat-simple.sh
+There you must specify the upstream card as the one connected to the internet
+
+//Launch
+bash /usr/share/mana-toolkit/run-mana/start-nat-simple.sh

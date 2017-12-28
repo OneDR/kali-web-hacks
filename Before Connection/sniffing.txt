@@ -1,0 +1,3 @@
+// Sniff Packets From a Specific Network
+airodump-ng --channel (CHANNELOFNETOWORK) --bssid (MACADRESSOFNETWORK) --write text-upc mon0
+//You can then use Wireshark to view the saved files (It will not decrpy but will give you some info)
