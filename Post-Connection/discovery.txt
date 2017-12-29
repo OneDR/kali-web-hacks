@@ -1,0 +1,35 @@
+//Discover all devices on network within a range
+
+netdiscover -i wlan0 192.168.1.1/24
+
+//Gathering more info using Autoscan
+//First download Autoscan (DONT INSTALL YET)
+https://sourceforge.net/projects/autoscan/files/AutoScan/autoscan-network%201.42/autoscan-network-1.42-Linux-x86-Install.tar.gz/download
+
+//Install the library (only on 32bit, so if you are on 64bit follow the directions below to add the librarys, otherwise skip adding the architecture)
+//Only do whats below if you have 64BIT
+dpkg --add-architecture i386
+apt-get update
+
+
+//Now we add the library (Do on both 32 and 64bit)
+apt-get install libc6:i386
+//Answer yes to all the prompts
+
+//Next install Autoscan
+//Extract the file
+./autoscan-network-1.42-Linux-x86-Install
+
+//Next launch Autoscan
+1. Press forward
+2. Forward again
+3. Forward
+4. Select the Card which is connected to the wifi
+
+
+
+
+//Gathering even more information
+//Nmap allos to gather detailed info about any client or network
+//We are going to use Zenmap (GUI version of nmap)
+//Under target put the same range you used earlier (192.168.1.1/24)

