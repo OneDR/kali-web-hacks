@@ -14,61 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="discovery.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="discovery.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Post-Connection/discovery.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ARP-Poisoning.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/ARP-Poisoning.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookie-extraction.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/cookie-extraction.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DNS-Spoofing.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/DNS-Spoofing.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Screen-Capturing&amp;keylogger.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/Screen-Capturing&amp;keylogger.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="91" lean-forward="false" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="injecting-code.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/injecting-code.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="75" lean-forward="false" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,12 +38,12 @@
         <option value="$PROJECT_DIR$/Notes/gaining_access.txt" />
         <option value="$PROJECT_DIR$/Notes/WPA-CRACKING.txt" />
         <option value="$PROJECT_DIR$/Notes/post-connection-attacks.txt" />
-        <option value="$PROJECT_DIR$/Post-Connection/discovery.txt" />
         <option value="$PROJECT_DIR$/Post-Connection/Man In The Middle/ARP-Poisoning.txt" />
         <option value="$PROJECT_DIR$/Post-Connection/Man In The Middle/cookie-extraction.txt" />
         <option value="$PROJECT_DIR$/Post-Connection/Man In The Middle/DNS-Spoofing.txt" />
         <option value="$PROJECT_DIR$/Post-Connection/Man In The Middle/Screen-Capturing&amp;keylogger.txt" />
         <option value="$PROJECT_DIR$/Post-Connection/Man In The Middle/injecting-code.txt" />
+        <option value="$PROJECT_DIR$/Post-Connection/discovery.txt" />
       </list>
     </option>
   </component>
@@ -123,25 +73,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="kali-web-hacks" type="b2602c69:ProjectViewProjectNode" />
               <item name="kali-web-hacks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kali-web-hacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kali-web-hacks" type="462c0819:PsiDirectoryNode" />
-              <item name="Post-Connection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kali-web-hacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kali-web-hacks" type="462c0819:PsiDirectoryNode" />
-              <item name="Post-Connection" type="462c0819:PsiDirectoryNode" />
-              <item name="Man In The Middle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,17 +121,18 @@
       <workItem from="1514389197182" duration="4723000" />
       <workItem from="1514438445413" duration="520000" />
       <workItem from="1514511766511" duration="3707000" />
+      <workItem from="1514599277247" duration="129000" />
+      <workItem from="1514612348401" duration="1156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10434000" />
+    <option name="totallyTimeSpent" value="11719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39605463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39605463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -222,20 +162,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Notes/WPA-CRACKING.txt" />
-    <entry file="file://$PROJECT_DIR$/Notes/sniffing.txt" />
-    <entry file="file://$PROJECT_DIR$/Notes/deauth.txt" />
-    <entry file="file://$PROJECT_DIR$/Notes/honeypot.txt" />
-    <entry file="file://$PROJECT_DIR$/overview.txt" />
-    <entry file="file://$PROJECT_DIR$/Notes/deauth.txt" />
-    <entry file="file://$PROJECT_DIR$/Notes/sniffing.txt" />
-    <entry file="file://$PROJECT_DIR$/Notes/gaining_access.txt" />
-    <entry file="file://$PROJECT_DIR$/Notes/honeypot.txt" />
-    <entry file="file://$PROJECT_DIR$/Notes/WPA-CRACKING.txt" />
-    <entry file="file://$PROJECT_DIR$/Notes/post-connection-attacks.txt" />
     <entry file="file://$PROJECT_DIR$/Post-Connection/discovery.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="442">
           <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding />
         </state>
@@ -243,7 +172,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/ARP-Poisoning.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="425">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="74" />
           <folding />
         </state>
@@ -277,6 +206,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="75" lean-forward="false" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/discovery.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/ARP-Poisoning.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/cookie-extraction.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/DNS-Spoofing.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/Screen-Capturing&amp;keylogger.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="91" lean-forward="false" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/injecting-code.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="75" lean-forward="false" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/WPA-CRACKING.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/sniffing.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/deauth.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/honeypot.txt" />
+    <entry file="file://$PROJECT_DIR$/overview.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/deauth.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/sniffing.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/gaining_access.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/honeypot.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/WPA-CRACKING.txt" />
+    <entry file="file://$PROJECT_DIR$/Notes/post-connection-attacks.txt" />
+    <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/Screen-Capturing&amp;keylogger.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/DNS-Spoofing.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/cookie-extraction.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/injecting-code.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="75" lean-forward="false" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/Man In The Middle/ARP-Poisoning.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Post-Connection/discovery.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

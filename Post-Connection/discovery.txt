@@ -1,6 +1,6 @@
 //Discover all devices on network within a range
 
-netdiscover -i wlan0 192.168.1.1/24
+netdiscover -i wlan0 -r 192.168.1.1/24
 
 //Gathering more info using Autoscan
 //First download Autoscan (DONT INSTALL YET)
